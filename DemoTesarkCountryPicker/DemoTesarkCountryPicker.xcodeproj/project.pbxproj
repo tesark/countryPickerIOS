@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AE3498F1E51EBBE002BF5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */; };
+		9AE349911E51EBBE002BF5DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE349901E51EBBE002BF5DE /* ViewController.swift */; };
+		9AE349941E51EBBE002BF5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349921E51EBBE002BF5DE /* Main.storyboard */; };
+		9AE349961E51EBBE002BF5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349951E51EBBE002BF5DE /* Assets.xcassets */; };
+		9AE349991E51EBBE002BF5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349971E51EBBE002BF5DE /* LaunchScreen.storyboard */; };
+		9AE349A31E51EBD4002BF5DE /* country.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349A21E51EBD4002BF5DE /* country.bundle */; };
+		9AE349A91E51F06C002BF5DE /* TesarkCountryPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */; };
+		9AE349AA1E51F06C002BF5DE /* TesarkCountryPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AE349A61E51EBDC002BF5DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9AE349AA1E51F06C002BF5DE /* TesarkCountryPicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9AE3498B1E51EBBE002BF5DE /* DemoTesarkCountryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTesarkCountryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AE349901E51EBBE002BF5DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AE349931E51EBBE002BF5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AE349951E51EBBE002BF5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AE349981E51EBBE002BF5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AE3499A1E51EBBE002BF5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE349A21E51EBD4002BF5DE /* country.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = country.bundle; sourceTree = "<group>"; };
+		9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesarkCountryPicker.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE349881E51EBBE002BF5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE349A91E51F06C002BF5DE /* TesarkCountryPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE349821E51EBBE002BF5DE = {
+			isa = PBXGroup;
+			children = (
+				9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */,
+				9AE3498D1E51EBBE002BF5DE /* DemoTesarkCountryPicker */,
+				9AE3498C1E51EBBE002BF5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE3498C1E51EBBE002BF5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3498B1E51EBBE002BF5DE /* DemoTesarkCountryPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE3498D1E51EBBE002BF5DE /* DemoTesarkCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9AE349A21E51EBD4002BF5DE /* country.bundle */,
+				9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */,
+				9AE349901E51EBBE002BF5DE /* ViewController.swift */,
+				9AE349921E51EBBE002BF5DE /* Main.storyboard */,
+				9AE349951E51EBBE002BF5DE /* Assets.xcassets */,
+				9AE349971E51EBBE002BF5DE /* LaunchScreen.storyboard */,
+				9AE3499A1E51EBBE002BF5DE /* Info.plist */,
+			);
+			path = DemoTesarkCountryPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE3498A1E51EBBE002BF5DE /* DemoTesarkCountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE3499D1E51EBBE002BF5DE /* Build configuration list for PBXNativeTarget "DemoTesarkCountryPicker" */;
+			buildPhases = (
+				9AE349871E51EBBE002BF5DE /* Sources */,
+				9AE349881E51EBBE002BF5DE /* Frameworks */,
+				9AE349891E51EBBE002BF5DE /* Resources */,
+				9AE349A61E51EBDC002BF5DE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoTesarkCountryPicker;
+			productName = DemoTesarkCountryPicker;
+			productReference = 9AE3498B1E51EBBE002BF5DE /* DemoTesarkCountryPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE349831E51EBBE002BF5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mac Mini";
+				TargetAttributes = {
+					9AE3498A1E51EBBE002BF5DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M472PQETJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AE349861E51EBBE002BF5DE /* Build configuration list for PBXProject "DemoTesarkCountryPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE349821E51EBBE002BF5DE;
+			productRefGroup = 9AE3498C1E51EBBE002BF5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE3498A1E51EBBE002BF5DE /* DemoTesarkCountryPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE349891E51EBBE002BF5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE349991E51EBBE002BF5DE /* LaunchScreen.storyboard in Resources */,
+				9AE349961E51EBBE002BF5DE /* Assets.xcassets in Resources */,
+				9AE349A31E51EBD4002BF5DE /* country.bundle in Resources */,
+				9AE349941E51EBBE002BF5DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE349871E51EBBE002BF5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE349911E51EBBE002BF5DE /* ViewController.swift in Sources */,
+				9AE3498F1E51EBBE002BF5DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE349921E51EBBE002BF5DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE349931E51EBBE002BF5DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AE349971E51EBBE002BF5DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE349981E51EBBE002BF5DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE3499B1E51EBBE002BF5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AE3499C1E51EBBE002BF5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE3499E1E51EBBE002BF5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M472PQETJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoTesarkCountryPicker",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DemoTesarkCountryPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesark.DemoTesarkCountryPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AE3499F1E51EBBE002BF5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M472PQETJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoTesarkCountryPicker",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DemoTesarkCountryPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesark.DemoTesarkCountryPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE349861E51EBBE002BF5DE /* Build configuration list for PBXProject "DemoTesarkCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE3499B1E51EBBE002BF5DE /* Debug */,
+				9AE3499C1E51EBBE002BF5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE3499D1E51EBBE002BF5DE /* Build configuration list for PBXNativeTarget "DemoTesarkCountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE3499E1E51EBBE002BF5DE /* Debug */,
+				9AE3499F1E51EBBE002BF5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE349831E51EBBE002BF5DE /* Project object */;
+}

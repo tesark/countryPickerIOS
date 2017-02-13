@@ -1,0 +1,10 @@
+framework module TesarkCountryPicker {
+  umbrella header "TesarkCountryPicker.h"
+
+  export *
+  module * { export * }
+}
+
+module TesarkCountryPicker.Swift {
+    header "TesarkCountryPicker-Swift.h"
+}
