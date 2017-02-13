@@ -1,5 +1,52 @@
 # countryPickeriOS
 
+# Purpose 
+
+      - Can pick country details without UI customizations and Optiomations ( Framework has Flexible UI & Controller )
+      - Current Location based Country Picker
+
+# variable for showcase 
+
+    @IBOutlet weak var TesarkcountryNameLabel: UILabel!
+    @IBOutlet weak var TesarkcountryDialcodeLabel: UILabel!
+    @IBOutlet weak var TesarkcountryCodeLabel: UILabel!
+
+# //MARK: Method for Call county view UI
+    
+    @IBAction func ButtonACtion_chooseCountrycode(_ sender: Any) {
+    
+        let countriesViewController = TesarkCountriesViewController.standardController()
+        countriesViewController.delegate = self
+        navigationController?.pushViewController(countriesViewController, animated: true)
+        
+    }
+    
+  # Delegate Init and Delegate Methods
+  
+    class ViewController: UIViewController, TesarkCountriesViewControllerDelegate {
+      ........
+    }
+
+ # //MARK: TesarkCountriesViewControllerDelegate for Cancel
+ 
+     func countriesViewControllerDidCancel() {
+     
+        _ = self.navigationController?.popViewController(animated: true)
+        
+     }
+    
+   # //MARK: TesarkCountriesViewControllerDelegate for Selcted Country Details
+
+        func countriesViewController(didSelectCountry country: Country) {
+        
+            _ = self.navigationController?.popViewController(animated: true)
+            TesarkcountryNameLabel.text = country.name
+            TesarkcountryDialcodeLabel.text = "+ \(country.phoneExtension)"
+             TesarkcountryCodeLabel.text = country.countryCode
+            self.title = country.name
+
+          }
+
 
 # Demo Screens
 
