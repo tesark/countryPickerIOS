@@ -22,13 +22,13 @@
         
     }
     
-  # Delegate Init and Delegate Methods
+# Delegate Init and Delegate Methods
   
     class ViewController: UIViewController, TesarkCountriesViewControllerDelegate {
       ........
     }
 
- # TesarkCountriesViewControllerDelegate for Cancel
+# TesarkCountriesViewControllerDelegate for Cancel
  
      func countriesViewControllerDidCancel() {
      
@@ -36,7 +36,7 @@
         
      }
     
-   #  TesarkCountriesViewControllerDelegate for Selcted Country Details
+# TesarkCountriesViewControllerDelegate for Selcted Country Details
 
         func countriesViewController(didSelectCountry country: Country) {
         
