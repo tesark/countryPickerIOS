@@ -2,7 +2,7 @@
 
 # Purpose 
 
-      - Can pick country details without UI customizations  
+      - Can pick country details  
         ( Framework has Flexible UI & Controller )
       - Current Location based Country Picker
 
