@@ -2,7 +2,8 @@
 
 # Purpose 
 
-      - Can pick country details without UI customizations and Optiomations ( Framework has Flexible UI & Controller )
+      - Can pick country details without UI customizations and Optiomations 
+        ( Framework has Flexible UI & Controller )
       - Current Location based Country Picker
 
 # variable for showcase 
@@ -11,7 +12,7 @@
     @IBOutlet weak var TesarkcountryDialcodeLabel: UILabel!
     @IBOutlet weak var TesarkcountryCodeLabel: UILabel!
 
-# //MARK: Method for Call county view UI
+#  Method for Call county view UI
     
     @IBAction func ButtonACtion_chooseCountrycode(_ sender: Any) {
     
@@ -27,7 +28,7 @@
       ........
     }
 
- # //MARK: TesarkCountriesViewControllerDelegate for Cancel
+ # TesarkCountriesViewControllerDelegate for Cancel
  
      func countriesViewControllerDidCancel() {
      
@@ -35,7 +36,7 @@
         
      }
     
-   # //MARK: TesarkCountriesViewControllerDelegate for Selcted Country Details
+   #  TesarkCountriesViewControllerDelegate for Selcted Country Details
 
         func countriesViewController(didSelectCountry country: Country) {
         
