@@ -52,3 +52,4 @@
 # Demo Screens
 
 ![alt tag](https://github.com/tesark/countryPickerIOS/blob/master/Choose%20Country.gif)
+![alt tag](https://github.com/tesark/countryPickerIOS/blob/master/pickCountry.png)
