@@ -12,6 +12,8 @@ FOUNDATION_EXPORT double TesarkCountryPickerVersionNumber;
 
 //! Project version string for TesarkCountryPicker.
 FOUNDATION_EXPORT const unsigned char TesarkCountryPickerVersionString[];
+#import "TesarkCountryPicker-Swift.h"
+
 
 // In this header, you should import all the public headers of your framework using statements like
 
