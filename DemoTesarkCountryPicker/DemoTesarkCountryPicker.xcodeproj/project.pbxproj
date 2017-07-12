@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13307DDE1F162F1D00382B27 /* TesarkCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13307DD71F162F1D00382B27 /* TesarkCountriesViewController.swift */; };
+		13307DDF1F162F1D00382B27 /* TesarkCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13307DD91F162F1D00382B27 /* TesarkCountries.swift */; };
+		13307DE01F162F1D00382B27 /* TesarkCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13307DDA1F162F1D00382B27 /* TesarkCountry.swift */; };
+		13307DE11F162F1D00382B27 /* country.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13307DDC1F162F1D00382B27 /* country.bundle */; };
+		13307DE21F162F1D00382B27 /* TesarkCountrypicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13307DDD1F162F1D00382B27 /* TesarkCountrypicker.storyboard */; };
 		9AE3498F1E51EBBE002BF5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */; };
 		9AE349911E51EBBE002BF5DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE349901E51EBBE002BF5DE /* ViewController.swift */; };
 		9AE349941E51EBBE002BF5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349921E51EBBE002BF5DE /* Main.storyboard */; };
 		9AE349961E51EBBE002BF5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349951E51EBBE002BF5DE /* Assets.xcassets */; };
 		9AE349991E51EBBE002BF5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349971E51EBBE002BF5DE /* LaunchScreen.storyboard */; };
-		9AE349A31E51EBD4002BF5DE /* country.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AE349A21E51EBD4002BF5DE /* country.bundle */; };
-		9AE349A91E51F06C002BF5DE /* TesarkCountryPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */; };
-		9AE349AA1E51F06C002BF5DE /* TesarkCountryPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9AE349AA1E51F06C002BF5DE /* TesarkCountryPicker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +33,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13307DD71F162F1D00382B27 /* TesarkCountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesarkCountriesViewController.swift; sourceTree = "<group>"; };
+		13307DD91F162F1D00382B27 /* TesarkCountries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesarkCountries.swift; sourceTree = "<group>"; };
+		13307DDA1F162F1D00382B27 /* TesarkCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesarkCountry.swift; sourceTree = "<group>"; };
+		13307DDC1F162F1D00382B27 /* country.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = country.bundle; sourceTree = "<group>"; };
+		13307DDD1F162F1D00382B27 /* TesarkCountrypicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TesarkCountrypicker.storyboard; sourceTree = "<group>"; };
 		9AE3498B1E51EBBE002BF5DE /* DemoTesarkCountryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTesarkCountryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE349901E51EBBE002BF5DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,8 +45,6 @@
 		9AE349951E51EBBE002BF5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE349981E51EBBE002BF5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE3499A1E51EBBE002BF5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AE349A21E51EBD4002BF5DE /* country.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = country.bundle; sourceTree = "<group>"; };
-		9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesarkCountryPicker.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +52,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE349A91E51F06C002BF5DE /* TesarkCountryPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13307DD41F162F1D00382B27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13307DD51F162F1D00382B27 /* Country */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		13307DD51F162F1D00382B27 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				13307DD61F162F1D00382B27 /* Controller */,
+				13307DD81F162F1D00382B27 /* Model */,
+				13307DDB1F162F1D00382B27 /* View */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		13307DD61F162F1D00382B27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13307DD71F162F1D00382B27 /* TesarkCountriesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13307DD81F162F1D00382B27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13307DD91F162F1D00382B27 /* TesarkCountries.swift */,
+				13307DDA1F162F1D00382B27 /* TesarkCountry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13307DDB1F162F1D00382B27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13307DDC1F162F1D00382B27 /* country.bundle */,
+				13307DDD1F162F1D00382B27 /* TesarkCountrypicker.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9AE349821E51EBBE002BF5DE = {
 			isa = PBXGroup;
 			children = (
-				9AE349A71E51F066002BF5DE /* TesarkCountryPicker.framework */,
 				9AE3498D1E51EBBE002BF5DE /* DemoTesarkCountryPicker */,
 				9AE3498C1E51EBBE002BF5DE /* Products */,
 			);
@@ -75,7 +121,7 @@
 		9AE3498D1E51EBBE002BF5DE /* DemoTesarkCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
-				9AE349A21E51EBD4002BF5DE /* country.bundle */,
+				13307DD41F162F1D00382B27 /* Classes */,
 				9AE3498E1E51EBBE002BF5DE /* AppDelegate.swift */,
 				9AE349901E51EBBE002BF5DE /* ViewController.swift */,
 				9AE349921E51EBBE002BF5DE /* Main.storyboard */,
@@ -149,7 +195,8 @@
 			files = (
 				9AE349991E51EBBE002BF5DE /* LaunchScreen.storyboard in Resources */,
 				9AE349961E51EBBE002BF5DE /* Assets.xcassets in Resources */,
-				9AE349A31E51EBD4002BF5DE /* country.bundle in Resources */,
+				13307DE11F162F1D00382B27 /* country.bundle in Resources */,
+				13307DE21F162F1D00382B27 /* TesarkCountrypicker.storyboard in Resources */,
 				9AE349941E51EBBE002BF5DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13307DE01F162F1D00382B27 /* TesarkCountry.swift in Sources */,
 				9AE349911E51EBBE002BF5DE /* ViewController.swift in Sources */,
 				9AE3498F1E51EBBE002BF5DE /* AppDelegate.swift in Sources */,
+				13307DDF1F162F1D00382B27 /* TesarkCountries.swift in Sources */,
+				13307DDE1F162F1D00382B27 /* TesarkCountriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +386,7 @@
 				9AE3499F1E51EBBE002BF5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
